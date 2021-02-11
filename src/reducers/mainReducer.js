@@ -14,14 +14,7 @@ const initState = {
       schedules: [{ title: '', end: '', start: '' }],
     },
   ],
-  pickedData: [
-    {
-      id: '',
-      images: { logo: '' },
-      title: '',
-      schedules: [{ title: '', end: '', start: '' }],
-    },
-  ],
+  pickedData: [],
 };
 
 function mainReducer(state = initState, action) {

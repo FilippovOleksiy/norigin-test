@@ -20,7 +20,7 @@ export default () => {
         {...{ startPosition: 200, endPosition: -400, time: 100 }}
       >
         <HoursBar {...{ hours }} />
-        <ProgramList {...{ channels: pickedData }}></ProgramList>
+        <ProgramList {...{ channels: pickedData }} />
       </TranslateAnimation>
     </Container>
   );

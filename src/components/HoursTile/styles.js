@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const HoursTile = styled.div`
   display: flex;
-  width: ${({ width }) => width}px;
+  width: 200px;
   position: relative;
   justify-content: center;
   align-items: center;
